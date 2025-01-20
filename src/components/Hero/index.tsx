@@ -7,7 +7,7 @@ const Hero = () => (
   <HeroTopo style={{ backgroundImage: `url(${Vetor})` }}>
     <div>
       <Img className="img" src={logo} alt="efood" />
-      <Titulo>Viva experiências gastronômicas no conforto da sua casa</Titulo>
+      <Titulo>Viva experiências no conforto da sua casa</Titulo>
     </div>
   </HeroTopo>
 )
