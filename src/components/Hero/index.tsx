@@ -1,15 +1,14 @@
-import { HeroTopo, Img, Titulo } from './styles'
+import { Imagem, Titulo, Img } from './styles'
 
-import logo from '../../assets/logo.png'
-import Vetor from '../../assets/Vector.png'
+import heroImg from '../../assets/Vector.png'
+import heroimage from '../../assets/logo.png'
 
 const Hero = () => (
-  <HeroTopo style={{ backgroundImage: `url(${Vetor})` }}>
-    <div>
-      <Img className="img" src={logo} alt="efood" />
-      <Titulo>Viva experiências no conforto da sua casa</Titulo>
+  <Imagem style={{ backgroundImage: `url(${heroImg})` }}>
+    <div className="container">
+      <Img src={heroimage} />
+      <Titulo>Viva experiências gastronômicas no conforto da sua casa</Titulo>
     </div>
-  </HeroTopo>
+  </Imagem>
 )
-
 export default Hero

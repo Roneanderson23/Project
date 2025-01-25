@@ -1,34 +1,32 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 
-export const HeroTopo = styled.header`
+export const Imagem = styled.div`
   width: 100%;
   height: 384px;
-  top: -24px;
-  gap: 0px;
-  opacity: 0px;
-  padding-top: 260px;
-`
-
-export const Img = styled.img`
-  position: absolute;
-  top: 40px;
-  height: 60px;
-  left: 500px;
-  width: 125px;
-  height: 57.5px;
-  gap: 0px;
-  opacity: 0px;
+  display: block;
+  margin-bottom: 80px;
 `
 export const Titulo = styled.h2`
-  color: ${cores.rosaEscuro};
-  position: absolute;
-  max-width: 540px;
-  left: 300px;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 900;
+  line-height: 42.19px;
   text-align: center;
-  text-underline-position: under;
-  text-decoration-skip-ink: none;
+  width: 620px;
+  top: 236px;
+  left: 250px;
+  color: ${cores.rosaEscuro};
+  position: absolute;
+`
+
+export const Img = styled.img`
+  width: 125px;
+  height: 57.5px;
+  top: 40px;
+  left: 500px;
+  margin-bottom: 138px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
 `
