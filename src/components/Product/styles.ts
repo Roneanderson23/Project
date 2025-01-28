@@ -3,10 +3,8 @@ import { TagContainer } from '../Tag/styles'
 import { cores } from '../../styles'
 
 export const Card = styled.div`
-  background-color: ${cores.rosaClaro};
-  border-radius: 8px;
-  padding: 8px;
   margin-bottom: 32px;
+  background-color: ${cores.corDoCard};
 
   ${TagContainer} {
     position: absolute;
