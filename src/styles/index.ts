@@ -14,13 +14,14 @@ export const GlobalCss = createGlobalStyle`
       box-sizing: border-box;
       font-family: Robot, sans-serif;
       list-style: none;
+    }
 
-
-      .container {
-        max-width: 1024px;
-        width: 100%;
-        margin: 0 auto;
-        background-color: ${cores.rosaClaro};
+      body {
+      background-color: ${cores.corDeFundo}
       }
+
+    .container {
+      max-width: 1024px;
+      margin: 0 auto;
     }
 `
