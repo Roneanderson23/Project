@@ -12,34 +12,23 @@ export const Container = styled.footer`
   position: relative;
 `
 export const Logo = styled.img`
-  width: 125px;
-  height: 57.5px;
-  left: 568px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
+  padding: 2px 460px;
+  margin: auto;
+  height: 58px;
 `
 export const Nota = styled.img`
-  width: 88px;
-  display: block;
-  height: 24px;
-  top: 130px;
-  left: 590px;
-  gap: 0px;
-  opacity: 0px;
-  background-color: red;
-  position: absolute;
-  color: ${cores.rosaEscuro};
+  padding: 34px 474px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
 `
 export const Paragrafo = styled.p`
-  top: 232px;
-  position: absolute;
-  left: 300px;
-  font-family: Roboto;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 11.72px;
+  display: grid;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  height: 24px;
+  paddin-bottom: 40px;
+  color: ${cores.rosaEscuro};
 `
