@@ -15,7 +15,7 @@ export const Titulo = styled.h2`
   text-align: center;
   width: 620px;
   top: 236px;
-  left: 290px;
+  left: 310px;
   color: ${cores.rosaEscuro};
   position: absolute;
 `
@@ -24,7 +24,7 @@ export const Img = styled.img`
   width: 125px;
   height: 57.5px;
   top: 40px;
-  left: 510px;
+  left: 576px;
   margin-bottom: 138px;
   gap: 0px;
   opacity: 0px;

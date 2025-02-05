@@ -19,7 +19,7 @@ const ProductList = ({ background, efood }: Props) => (
             image={efood.image}
             infos={efood.infos}
             title={efood.title}
-            description={efood.description}
+            paragraph={efood.paragraph}
           />
         ))}
       </List>

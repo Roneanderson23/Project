@@ -1,6 +1,6 @@
 class Efood {
   title: string
-  description: string
+  paragraph: string
   image: string
   infos: string[]
   id: number
@@ -10,10 +10,10 @@ class Efood {
     title: string,
     image: string,
     infos: string[],
-    description: string
+    paragraph: string
   ) {
     this.id = id
-    this.description = description
+    this.paragraph = paragraph
     this.image = image
     this.infos = infos
     this.title = title
