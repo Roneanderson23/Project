@@ -24,9 +24,9 @@ export const Img = styled.img`
   width: 125px;
   height: 57.5px;
   top: 40px;
-  left: 576px;
+  left: 45%;
   margin-bottom: 138px;
-  gap: 0px;
-  opacity: 0px;
   position: absolute;
+  display: flex;
+  align-items: center;
 `
